@@ -5,7 +5,7 @@ import { StudentData } from './Context';
 
 function Edit() {
   let navigate = useNavigate();
-  const [stdData,setStdData] = useContext(StudentData);
+  const [stdData] = useContext(StudentData);
   let {index}= useParams();
   let [name,setName]=useState(stdData[index-1].Name)
   let [age,setAge]=useState(stdData[index-1].Age)
