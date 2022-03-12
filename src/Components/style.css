@@ -22,6 +22,22 @@ body{
     background-repeat: no-repeat;   
 }
 
+.addBtn{
+    position: absolute;
+    top: 120px;
+    right:150px;
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 10px;
+    background-color: aqua;
+    font-weight: bold;
+}
+.addBtn:hover{
+    background-color: rgb(28, 117, 117);
+    cursor: pointer;
+}
+
 .ip_fields{
     background-image: linear-gradient(to bottom,rgb(154, 129, 243),rgb(92, 238, 92));
     height: 700px;
@@ -68,6 +84,7 @@ body{
     border: none;
     border-radius: 10px;
     background-color: aqua;
+    font-weight: bold;
 }
 .sub_student:hover{
     background-color: rgb(28, 117, 117);
@@ -82,6 +99,7 @@ body{
     border: none;
     border-radius: 10px;
     background-color: aqua;
+    font-weight: bold;
 }
 .go_back:hover{
     background-color: rgb(28, 117, 117);
