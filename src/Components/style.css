@@ -22,10 +22,70 @@ body{
     background-repeat: no-repeat;   
 }
 
-.edit_data{
+.ip_fields{
     background-image: linear-gradient(to bottom,rgb(154, 129, 243),rgb(92, 238, 92));
     height: 700px;
     background-repeat: no-repeat;   
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.ip1{
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    height: 40px;
+    width: 300px;
+}
+.ip2{
+    position: absolute;
+    right: 150px;
+    top: 200px;
+    height: 40px;
+    width: 300px;
+}
+.ip3{
+    position: absolute;
+    left: 150px;
+    bottom: 200px;
+    height: 40px;
+    width: 300px;
+}
+.ip4{
+    position: absolute;
+    right: 150px;
+    bottom: 200px;
+    height: 40px;
+    width: 300px;
+}
+
+.sub_student{
+    position: absolute;
+    bottom: 100px;
+    right:400px;
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.sub_student:hover{
+    background-color: rgb(28, 117, 117);
+    cursor: pointer;
+}
+.go_back{
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.go_back:hover{
+    background-color: rgb(28, 117, 117);
+    cursor: pointer;
 }
 .header{
     background-color: rgb(13, 26, 68);
@@ -46,7 +106,6 @@ body{
     font-family:cursive;
     color: white;
 }
-
 
 .header_nav:hover{
     color: purple;

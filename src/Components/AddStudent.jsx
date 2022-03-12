@@ -28,15 +28,16 @@ const AddStudent = () => {
 
   return (
     <>
-    <div>  
-        <input type="text" id='name' name='name' value={name} placeholder="Name" onChange={(e)=>setName(e.target.value)}/>
-        <input type="text" id='age' name='age' value={age} placeholder="Age" onChange={(e)=>setAge(e.target.value)}/>
-        <input type="text" id='course' name='course' value={course} placeholder="Course" onChange={(e)=>setCourse(e.target.value)}/>
-        <input type="text" id='batch' name='batch' value={batch} placeholder="Batch" onChange={(e)=>setBatch(e.target.value)}/>
+    <div className='ip_fields'>  
+        <input className='ip1' type="text" id='name' name='name' value={name} placeholder="Name" onChange={(e)=>setName(e.target.value)}/>
+        <input className='ip2' type="text" id='age' name='age' value={age} placeholder="Age" onChange={(e)=>setAge(e.target.value)}/>
+        <input className='ip3' type="text" id='course' name='course' value={course} placeholder="Course" onChange={(e)=>setCourse(e.target.value)}/>
+        <input className='ip4' type="text" id='batch' name='batch' value={batch} placeholder="Batch" onChange={(e)=>setBatch(e.target.value)}/>
+        <button onClick={AddStudent} className="sub_student">Submit</button> <br/><br/><br/>
+        <button onClick={Back} className="go_back">Cancel</button>
     </div>
 
-    <button onClick={AddStudent} className="add_student">Submit</button> <br/><br/><br/>
-    <button onClick={Back} className="edit_student">Cancel</button>
+    
 </>
   )
 }
